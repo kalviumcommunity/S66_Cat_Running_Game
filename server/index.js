@@ -7,7 +7,7 @@ const leaderboard = [];
 
 // Middleware Connections
 app.use(cors());
-app.use(express.json()); // Middleware to parse JSON request bodies
+app.use(express.json()); 
 
 // Routes
 // POST route to add a name and score to the leaderboard
